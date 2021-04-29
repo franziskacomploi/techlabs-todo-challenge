@@ -1,0 +1,14 @@
+
+li {
+    list-style: none;
+}
+.delete {
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.delete:hover {
+    background-color: teal;
+    color: white;
+}
