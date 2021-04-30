@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>The To-Do List</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class='main-container'>
-            <section>
-                <h1>The To-Do List</h1>
-    
-                <form class='todoInput'>
-                    <label name="enter">Enter your To-Do here:</label>
-                    <input id="text" name="enter" type="text" class="todo">
-                    <input id="submit" type="submit">
-            
-                </form>
-            </section>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The To-Do List</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <section>
+        <h1>The To-Do List</h1>
 
+<<<<<<< HEAD
             <section>
                 <h2>Your To-Do's:</h2>
                 <ul class="todolist">
@@ -32,7 +32,42 @@
             </section>
         </div> 
     
+=======
+        <form class="todoInput">
+          <label name="enter">Enter your To-Do here:</label>
+          <div class="inputContainer">
+            <input id="text" name="enter" type="text" class="todo" />
+            <input id="submit" type="submit" value="+" />
+          </div>
+        </form>
+      </section>
+>>>>>>> 0548ed09ef2aef333f079a378cae62b7d52fea2b
 
-        <script src="scripts.js" async defer></script>
-    </body>
+      <section>
+        <h2>Your To-Do's:</h2>
+        <ul class="todolist">
+          <li>
+            <input type="checkbox" class="checkbox" />
+            <span>Buy flowers</span
+            ><button class="delete far fa-trash-alt"></button>
+          </li>
+          <li>
+            <input type="checkbox" class="checkbox" />
+            <span>Feed the cat</span
+            ><button class="delete far fa-trash-alt"></button>
+          </li>
+          <li class="checked">
+            <span> Get nutella</span
+            ><button class="delete far fa-trash-alt"></button>
+          </li>
+          <li class="checked">
+            <span> Water the plants</span
+            ><button class="delete far fa-trash-alt"></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="scripts.js" async defer></script>
+  </body>
 </html>
